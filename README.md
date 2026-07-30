@@ -112,7 +112,7 @@ COUNT=500000 npm run dev
 
 ### Demo preview
 
-<!-- TODO: Insert screen recording / GIF here showing the counter freezing on main thread vs staying smooth on worker -->
+![react-json-worker demo](./docs/demo.gif)
 
 ---
 
