@@ -13,9 +13,10 @@
     "predev": "node demo/generate-json.mjs",
     "dev": "vite",
     "prebuild": "node demo/generate-json.mjs",
-    "build": "tsc --noEmit && vite build",
+    "build:lib": "tsc",
+    "build": "npm run build:lib && vite build",
     "test": "vitest run",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build:lib"
   },
   "peerDependencies": {
     "react": ">=18"
