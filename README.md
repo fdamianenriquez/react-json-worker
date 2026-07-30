@@ -2,6 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/react-json-worker?style=flat-square)](https://www.npmjs.com/package/react-json-worker)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+[![CI](https://github.com/fdamianenriquez/react-json-worker/actions/workflows/ci.yml/badge.svg)](https://github.com/fdamianenriquez/react-json-worker/actions/workflows/ci.yml)
 
 > Offload large-scale JSON processing to a Web Worker — keep your UI thread responsive.
 
