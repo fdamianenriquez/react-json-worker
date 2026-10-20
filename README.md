@@ -34,7 +34,7 @@ Call `run(data)` → get back a `Promise<TOutput>`. That's it.
 npm install react-json-worker
 ```
 
-> **Note:** `react >= 18` is a peer dependency.
+> **Note:** `react` `^18 || ^19` is a peer dependency.
 
 ---
 

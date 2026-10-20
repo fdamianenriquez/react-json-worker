@@ -87,7 +87,9 @@ function App() {
       setResult(agg);
       setWorkerTime(elapsed);
       setMainThreadTime(null);
-    } catch {}
+    } catch {
+      // The hook exposes the failure through `error`.
+    }
   };
 
   const isProcessing = busy || loading;

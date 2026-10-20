@@ -1,1 +1,1 @@
-export { useJSONWorker } from './useJSONWorker';
+export { useJSONWorker } from './useJSONWorker.js';

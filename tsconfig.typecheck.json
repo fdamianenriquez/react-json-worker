@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "declaration": false,
+    "declarationDir": null,
+    "rootDir": ".",
+    "lib": ["ES2020", "DOM", "DOM.Iterable", "WebWorker"],
+    "types": ["vite/client"]
+  },
+  "include": ["src", "demo", "vite.config.ts", "vitest.config.ts"],
+  "exclude": ["dist", "dist-demo", "node_modules"]
+}
