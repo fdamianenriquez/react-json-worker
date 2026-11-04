@@ -2,6 +2,14 @@
 
 All notable changes to this project are documented here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses [Semantic Versioning](https://semver.org/).
 
+## [0.2.1] — 2026-11-03
+
+No changes to the published code; this release only refreshes development dependencies.
+
+### Changed
+
+- Development dependencies are updated: Vite 8.3.5 and typescript-eslint 8.72.1.
+
 ## [0.2.0] — 2026-10-19
 
 The `useJSONWorker` hook is unchanged. This release fixes how the package is published and modernises the tooling around it.
@@ -23,4 +31,5 @@ The `useJSONWorker` hook is unchanged. This release fixes how the package is pub
 - The React peer range is `^18 || ^19` (was `>=18`); CI tests both React 18 and 19.
 - Development dependencies are updated to current majors: React 19 types, Vite 8, Vitest 5, jsdom 30, ESLint 10. TypeScript is 6, because typescript-eslint does not support TypeScript 7 yet.
 
+[0.2.1]: https://github.com/fdamianenriquez/react-json-worker/releases/tag/v0.2.1
 [0.2.0]: https://github.com/fdamianenriquez/react-json-worker/releases/tag/v0.2.0

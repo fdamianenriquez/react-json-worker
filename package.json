@@ -1,6 +1,6 @@
 {
   "name": "react-json-worker",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Offload large-scale JSON processing to a Web Worker, keeping the UI thread responsive.",
   "keywords": [
     "react",
