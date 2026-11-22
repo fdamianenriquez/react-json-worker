@@ -2,6 +2,18 @@
 
 All notable changes to this project are documented here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses [Semantic Versioning](https://semver.org/).
 
+## [0.2.2] — 2026-11-21
+
+No changes to the published code; this release only refreshes development dependencies and tooling.
+
+### Changed
+
+- Development dependencies are updated: jsdom 31, Vite 8.3.8, Vitest 5.1, ESLint 10.15, typescript-eslint 8.73 and @vitejs/plugin-react 6.3.
+
+### Security
+
+- `minimatch` is overridden to `^11.0.4` in development to resolve GHSA-g3hv-75wg-m249. It is not a dependency of the published package.
+
 ## [0.2.1] — 2026-11-03
 
 No changes to the published code; this release only refreshes development dependencies.
@@ -31,5 +43,6 @@ The `useJSONWorker` hook is unchanged. This release fixes how the package is pub
 - The React peer range is `^18 || ^19` (was `>=18`); CI tests both React 18 and 19.
 - Development dependencies are updated to current majors: React 19 types, Vite 8, Vitest 5, jsdom 30, ESLint 10. TypeScript is 6, because typescript-eslint does not support TypeScript 7 yet.
 
+[0.2.2]: https://github.com/fdamianenriquez/react-json-worker/releases/tag/v0.2.2
 [0.2.1]: https://github.com/fdamianenriquez/react-json-worker/releases/tag/v0.2.1
 [0.2.0]: https://github.com/fdamianenriquez/react-json-worker/releases/tag/v0.2.0
